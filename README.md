@@ -60,4 +60,6 @@ After the output of FFT circuit is input, the Analysis circuit has to find out t
 The definition of main frequency band is: the frequency whose sum of square of the real part data and imaginary part data is maximum.
 For example, Y(n) = a + bj (n = 0 ~ 15), then a2 + b2 has to be calculated for comparison. 
 Finally, the main frequency band should be output with freq signal. If Y(2) has maximum sum of square, the freq should output 4’b0010.
-Fig. 15 – 16-point FFT circuit with the serial to parallel circuit
+
+![image](https://user-images.githubusercontent.com/74757651/145254756-62ae31c4-cf96-47dc-a702-3f9cc3e12988.png)
+
