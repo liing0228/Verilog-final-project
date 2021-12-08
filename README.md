@@ -37,6 +37,7 @@ Functionality of FIR filter
 The FIR filter in the system is a low pass filter with 32 coefficients, and it is responsible for filtering out the high frequency noise. The coefficients of the filter are fixed, and they are shown in table 2. (They are also stored in the file “FIR_coefficient.dat”.) The first valid output will be calculated after the thirty-second data is input to the FIR filter. Equation 1 shows the calculation process of FIR filter. Figure 9 shows its hardware architecture, and figure 10 shows the format of input data and output fir_d.
 
 ![image](https://user-images.githubusercontent.com/74757651/145252455-6b92111c-5805-4e7c-8a95-088141447a2c.png)
+![image](https://user-images.githubusercontent.com/74757651/145252942-e79b8465-fcde-4949-b3f2-6c1263948865.png)
 
 Functionality of FFT circuit
 In this system, you are requested to complete a sixteen-point fast Fourier transform. 
