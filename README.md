@@ -1,4 +1,4 @@
-# FAS system 
+# DIC FAS system 
 Frequency analysis system in verilog
 You need to design a system with Finite Impulse Response filter (FIR filter),a Fast Fourier Transform (FFT) circuit and a analysis circuit.
 This system can filter out the noise with FIR filter and then transform the signals from time domain into frequency domain with FFT circuit.
