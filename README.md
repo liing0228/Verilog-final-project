@@ -63,5 +63,7 @@ The definition of main frequency band is: the frequency whose sum of square of t
 For example, Y(n) = a + bj (n = 0 ~ 15), then a2 + b2 has to be calculated for comparison. 
 Finally, the main frequency band should be output with freq signal. If Y(2) has maximum sum of square, the freq should output 4’b0010.
 
+You can use Appendix to debug your RTL code
+
 ![image](https://user-images.githubusercontent.com/74757651/145254756-62ae31c4-cf96-47dc-a702-3f9cc3e12988.png)
 
