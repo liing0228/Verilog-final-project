@@ -52,3 +52,12 @@ Below is an example of the FFT calculation process. The minus sign in the path o
 ![image](https://user-images.githubusercontent.com/74757651/145252619-064a4195-16c2-4b19-b6d9-c99967c40b4d.png)
 
 
+The values of FFT coefficients are shown in table 3. The real part coefficients are stored in the file “Real_Value_Ref.dat”, and the imaginary part coefficients are stored in the file “Imag_Value_Ref.dat”. Figure 14 shows the data format of output of FFT circuit (fft_d0 ~ fft_d15).
+
+![image](https://user-images.githubusercontent.com/74757651/145253077-6c9dac31-f7c6-4bd9-9fb8-287e8d6048a0.png)
+
+After the output of FFT circuit is input, the Analysis circuit has to find out the main frequency band. 
+The definition of main frequency band is: the frequency whose sum of square of the real part data and imaginary part data is maximum.
+For example, Y(n) = a + bj (n = 0 ~ 15), then a2 + b2 has to be calculated for comparison. 
+Finally, the main frequency band should be output with freq signal. If Y(2) has maximum sum of square, the freq should output 4’b0010.
+Fig. 15 – 16-point FFT circuit with the serial to parallel circuit
